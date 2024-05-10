@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Template</title>
+</head>
+<body>
+    <h1>Welcome to our website!</h1>
+    <p>{{ message }}</p>
+    <img src="{{ image }}" alt="Example Image">
+    <video controls>
+        <source src="{{ video }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <form method="post">
+        {{ form }}
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
